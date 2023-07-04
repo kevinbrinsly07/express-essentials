@@ -1,0 +1,30 @@
+{
+  "name": "express-essentials",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinbrinsly07/express-essentials.git"
+  },
+  "author": "kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinbrinsly07/express-essentials/issues"
+  },
+  "homepage": "https://github.com/kevinbrinsly07/express-essentials#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.6",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.6"
+  }
+}
